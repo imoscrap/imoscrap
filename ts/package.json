@@ -1,0 +1,24 @@
+{
+    "name": "imoscrap",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.11.27",
+        "drizzle-kit": "^0.20.14",
+        "typescript": "^5.4.2"
+    },
+    "dependencies": {
+        "drizzle-orm": "^0.30.2",
+        "postgres": "^3.4.3",
+        "puppeteer": "^22.4.1"
+    }
+}
